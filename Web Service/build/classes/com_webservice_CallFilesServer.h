@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     com_webservice_CallFilesServer
  * Method:    getData
- * Signature: ()Ljava/lang/String;
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_com_webservice_CallFilesServer_getData
-  (JNIEnv *, jobject);
+  (JNIEnv *, jobject, jstring);
 
 #ifdef __cplusplus
 }
